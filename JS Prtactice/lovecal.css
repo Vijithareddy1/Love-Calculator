@@ -1,0 +1,66 @@
+/* 1️⃣ Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2️⃣ Center the content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebcfd1; /* Light pink */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    background-image: url('assets/pink\ with\ couple.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* 3️⃣ Box styling */
+.container {
+    background: rgb(246, 203, 235);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 4️⃣ Style the title */
+h1 {
+    color: #d81b60; /* Dark pink */
+    margin-bottom: 20px;
+}
+
+/* 5️⃣ Input fields */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #d81b60;
+    border-radius: 5px;
+}
+
+/* 6️⃣ Button styling */
+button {
+    background: #d81b60;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* 7️⃣ Hover effect on button */
+button:hover {
+    background: #c2185b; /* Darker pink */
+}
+
+/* 8️⃣ Result text */
+#result {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #d81b60;
+}
